@@ -5,25 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <img src="./img/logo copia.png" alt="Logo Toboolist">
+        <img src="./img/Logo.png" alt="Logo Toboolist">
         <h1>
             Toboolist
         </h1>
     </header>
     <main>
         <div class="container">
-            <div class="add">
-                <input type="button" value="Add Task">
-                <input type="button" value="Add Section">
+            <div class="add-cont">
+                <input type="button" value="Add Task" class="add-task">
+                <input type="button" value="Add Section" class="add-section">
             </div>
             <div>
-                <ul>
-                    <li>
-                        New Task
+                <ul class="main-list">
+                    <li class="main-items">
+                        <h2>New Task</h2>
+                        <ul>
+                            <li>
+                                Quarterly Newsletter <span class="info blue">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-items">
+                        <h2>Today</h2>
+                        <ul>
+                            <li>
+                                Recruiting blog post <span class="info blue">Editorial</span>
+                            </li>
+                            <li>
+                                Mobile app luaunch <span class="info purple">Q1 Goals</span>
+                            </li>
+                            <li>
+                                Interview John H. <span class="info g-dark">Recruiting</span>
+                            </li>
+                            <li>
+                                Summit update to mobiile storefronts <span class="info orange">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-items">
+                        <h2>Upcoming</h2>
+                        <ul>
+                            <li>
+                                Schedule meeting with Alex
+                            </li>
+                            <li>
+                                Homepage refresh <span class="info pink">Website</span>
+                            </li>
+                            <li>
+                                Onboard new Sales team members <span class="info g-light">Sales</span>
+                            </li>
+                            <li>
+                                Review editional calendar <span class="info blue">Editorial</span>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
